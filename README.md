@@ -10,7 +10,7 @@ Current:
 - **RookWorld-LM + RLVR** — current iteration leveraging RLVR (GRPO).  
   repo: [jorahn/RookWorld-RLVR](https://github.com/jorahn/rookworld-rlvr)
 
-Open research with LAION "ROOK: REASONING OVER ORGANIZED KNOWLEDGE](https://laion.ai/notes/rook/)"
+Open research with LAION "[ROOK: REASONING OVER ORGANIZED KNOWLEDGE](https://laion.ai/notes/rook/)"
 - **RookWorld-LM** — unified agent+environment; closed-loop self-play.  
   repo: [jorahn/RookWorld](https://github.com/jorahn/RookWorld) · models: [RookWorld-LM-124M](https://huggingface.co/jrahn/RookWorld-LM-124M) / [rookworld_7m_3e_gpt2_124M_hf](https://huggingface.co/jrahn/rookworld_7m_3e_gpt2_124M_hf) · dataset: [rookworld_7m](https://huggingface.co/datasets/jrahn/rookworld_7m) / [rookworld_evol_st1_8m](https://huggingface.co/datasets/jrahn/rookworld_evol_st1_8m) / [rookworld_evol_st1_policy_1m](https://huggingface.co/datasets/jrahn/rookworld_evol_st1_policy_1m)
 - **Arbiter** — environment modeling via text; Gym-style I/O.  
