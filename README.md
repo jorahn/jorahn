@@ -1,6 +1,6 @@
 # Chess AI Through Language Models: Strategic Reasoning Without Search
 
-**Jonathan Rahn** | AI Lab, Drees & Sommer | [GitHub](https://github.com/jorahn) | [HuggingFace](https://huggingface.co/jrahn)
+**Jonathan Rahn** | AI Lab Lead, Drees & Sommer | [GitHub](https://github.com/jorahn) | [HuggingFace](https://huggingface.co/jrahn)
 
 ## Research Overview
 
