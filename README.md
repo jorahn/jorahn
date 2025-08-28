@@ -24,6 +24,7 @@ Prior:
 - **YoloChess** — FEN encoder pretrain + position→move cls.  
   models: [yolochess_mlm_azure-cloud-35](https://huggingface.co/jrahn/yolochess_mlm_azure-cloud-35) · [bertsgambit](https://huggingface.co/jrahn/bertsgambit)  
   datasets: [yolochess_lichess-elite_2211](https://huggingface.co/datasets/jrahn/yolochess_lichess-elite_2211) · [yolochess_deepblue](https://huggingface.co/datasets/jrahn/yolochess_deepblue)
+  slides: [link](https://docs.google.com/presentation/d/1Y4N8gDzIfTQ51FrP6YC5hvgYA85TPZqjEM2W1lc79Kg/edit)
 
 -----
 
