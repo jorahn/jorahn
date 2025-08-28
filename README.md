@@ -1,4 +1,4 @@
-Hi — Currently I build language models that learn both strategy and rules
+Hi — Currently, I build language models that learn both strategy and rules
 
 Focus: chess as a clean testbed for rule-aware reasoning. From supervised policies → autoregressive CoT → unified agent-and-environment models.
 
@@ -15,7 +15,7 @@ Focus: chess as a clean testbed for rule-aware reasoning. From supervised polici
 - **ROOK-LM** — autoregressive CoT: position → candidates → evals → best.  
   repo: [jorahn/RookWorld](https://github.com/jorahn/RookWorld) · model: [ROOK-LM-124m](https://huggingface.co/jrahn/ROOK-LM-124m)
 - **ROOK-CLF** — small classifier baseline using decoder arch; reproducible setup.  
-  repo: [jorahn/rook](https://github.com/jorahn/rook) · model: [ROOK-CLF-9m](https://huggingface.co/jrahn/ROOK-CLF-9m)
+  repo: [jorahn/rook](https://github.com/jorahn/rook) · model: [ROOK-CLF-9m](https://huggingface.co/jrahn/ROOK-CLF-9m) · w&b: [logs](https://wandb.ai/jrahn/ROOK)
 - **YoloChess** — FEN encoder pretrain + position→move cls.  
   models: [yolochess_mlm_azure-cloud-35](https://huggingface.co/jrahn/yolochess_mlm_azure-cloud-35) · [bertsgambit](https://huggingface.co/jrahn/bertsgambit)  
   datasets: [yolochess_lichess-elite_2211](https://huggingface.co/datasets/jrahn/yolochess_lichess-elite_2211) · [yolochess_deepblue](https://huggingface.co/datasets/jrahn/yolochess_deepblue)
