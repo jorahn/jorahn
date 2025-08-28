@@ -22,7 +22,7 @@ Repo: [jorahn/RookWorld-RLVR](https://github.com/jorahn/rookworld-rlvr)
 **Key breakthrough**: Unified chess policy and world model in a single transformer architecture.
 Post: [ROOK: REASONING OVER ORGANIZED KNOWLEDGE](https://laion.ai/notes/rook/)
 
-- **Collaboration**: [Jenia Jitsev](https://www.fz-juelich.de/profile/jitsev_j) (LAION/JSC), [Qi Sun](https://qisun.me/) (Tokyo Tech/Sakana AI)
+- **Collaboration**: [Jenia Jitsev](https://www.fz-juelich.de/profile/jitsev_j) (LAION/JSC), [Qi Sun](https://scholar.google.com/citations?user=rv0MJuAAAAAJ&hl=en) (Tokyo Tech/Sakana AI)
 - **Multi-task Performance**:
   - 32.1% Checkmate-in-One accuracy (vs ChessGPT-Base 26.5%)
   - 99.9% environment simulation accuracy
