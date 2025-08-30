@@ -15,7 +15,8 @@ The core hypothesis: complex strategic reasoning can emerge from next-token pred
 ### RookWorld-RLVR (Current)
 
 Active development integrating Reinforcement Learning with Verifiable Rewards (GRPO) for enhanced reasoning capabilities.  
-Repo: [jorahn/RookWorld-RLVR](https://github.com/jorahn/rookworld-rlvr)
+Repo Transformers & TRL: [jorahn/RookWorld-TRL](https://github.com/jorahn/rookworld-trl)
+Repo PyTorch: [jorahn/RookWorld-RLVR](https://github.com/jorahn/rookworld-rlvr)
 
 ### RookWorld-LM (124M params) - Unified Agent+Environment
 
