@@ -28,6 +28,7 @@ Post: [ROOK: REASONING OVER ORGANIZED KNOWLEDGE](https://laion.ai/notes/rook/)
   - 32.1% Checkmate-in-One accuracy (vs ChessGPT-Base 26.5%)
   - 99.9% environment simulation accuracy
   - 26.2% overall action accuracy
+- **Model**: [RookWorld-LM 124M](https://huggingface.co/jrahn/RookWorld-LM-124M)  
 - **Dataset**: [rookworld-46m](https://huggingface.co/datasets/jrahn/rookworld-46m)
 - **Significance**: Enables closed-loop self-play without external engines
 - **Interactive Demo**: [RookWorld Space](https://huggingface.co/spaces/jrahn/rookworld)
