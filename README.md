@@ -40,7 +40,7 @@ Implementation of Chain-of-Thought reasoning for chess, incorporating position a
 - **Dataset**: [rook_40m](https://huggingface.co/datasets/lfsm/rook-40m) (6B tokens, generated on Tsubame 4.0)
 - **Architecture**: GPT-2 with custom chess tokenization
 - **Performance**: 22.2% action accuracy with comprehensive reasoning traces
-- **Technical Details**: [LAION Blog Post](https://laion.ai/blog/rook/)
+- **Technical Details**: [LAION Research Note](https://laion.ai/notes/rook/)
 
 ### ROOK-CLF (9M params) - Classification Approach
 
