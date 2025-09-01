@@ -48,7 +48,7 @@ Reproduction of Google DeepMind’s [“Grandmaster-Level Chess Without Search�
 
 - **Performance**: 49% action accuracy, 57% on Checkmate-in-One
 - **Achievement**: Demonstrated searchless chess AI feasibility with minimal parameters
-- **Model**: [Available on HuggingFace](https://huggingface.co/jrahn/rook-clf)
+- **Model**: [Available on HuggingFace](https://huggingface.co/jrahn/ROOK-CLF-9m)
 
 ### YoloChess (2022) - Foundation Work
 
