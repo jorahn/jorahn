@@ -25,7 +25,7 @@ Post: [ROOK: REASONING OVER ORGANIZED KNOWLEDGE](https://laion.ai/notes/rook/)
 
 - **Collaboration**: [Jenia Jitsev](https://scholar.google.com/citations?user=p1FuAMkAAAAJ&hl=en) (LAION/JSC), [Qi Sun](https://scholar.google.com/citations?user=rv0MJuAAAAAJ&hl=en) (Tokyo Tech/Sakana AI)
 - **Multi-task Performance**:
-  - 32.1% Checkmate-in-One accuracy (vs ChessGPT-Base 26.5%)
+  - **🏆 32.1% Checkmate-in-One accuracy** - outperforms ChessGPT-Base (Feng et al., NeurIPS'23) with **124M vs 3B parameters** (24x smaller)
   - 99.9% environment simulation accuracy (details: Next State 99.61%, NLS 99.99%, Reward 99.11%, Terminated 99.13%; see RookWorld/README)
   - 26.2% action accuracy
 - **Model**: [RookWorld-LM 124M](https://huggingface.co/jrahn/RookWorld-LM-124M)
