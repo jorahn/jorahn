@@ -61,6 +61,7 @@ Initial exploration using BERT-based position evaluation with custom FEN encoder
 
 - **Dataset**: [yolochess_lichess-elite_2211](https://huggingface.co/datasets/jrahn/yolochess_lichess-elite_2211)
 - **Architecture**: DeBERTa v2 with FEN tokenization
+- **W&B Logs**: [Training Report](https://wandb.ai/jrahn/chessv62/reports/Training-V6b-2-Fine-Tuning---VmlldzoyNjgzODk3)
 
 -----
 
