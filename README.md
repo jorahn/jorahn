@@ -1,10 +1,10 @@
 # Chess AI Through Language Models: Strategic Reasoning Without Search
 
-**Jonathan Rahn** | AI Lab Lead, Drees & Sommer | [GitHub](https://github.com/jorahn) | [HuggingFace](https://huggingface.co/jrahn)
+**Jonathan Rahn** | AI Lab Lead, Drees & Sommer | [GitHub](https://github.com/jorahn) | [HuggingFace](https://huggingface.co/jrahn) | [Research Page](https://jorahn.github.io/research/) | [W&B](https://wandb.ai/jrahn/ROOK)
 
 ## Research Overview
 
-This work explores transformer-based strategic reasoning through chess as a testbed, demonstrating that language models can develop sophisticated game-playing capabilities without traditional search algorithms. In collaboration with [LAION](https://laion.ai/notes/room), we’ve developed a progression of models that challenge fundamental assumptions about how AI systems learn strategic thinking.
+This work explores transformer-based strategic reasoning through chess as a testbed, demonstrating that language models can develop sophisticated game-playing capabilities without traditional search algorithms. In collaboration with [LAION](https://laion.ai/notes/rook), we've developed a progression of models that challenge fundamental assumptions about how AI systems learn strategic thinking.
 
 The core hypothesis: complex strategic reasoning can emerge from next-token prediction when models are trained on appropriately structured strategic data.
 
@@ -26,10 +26,11 @@ Post: [ROOK: REASONING OVER ORGANIZED KNOWLEDGE](https://laion.ai/notes/rook/)
 - **Collaboration**: [Jenia Jitsev](https://scholar.google.com/citations?user=p1FuAMkAAAAJ&hl=en) (LAION/JSC), [Qi Sun](https://scholar.google.com/citations?user=rv0MJuAAAAAJ&hl=en) (Tokyo Tech/Sakana AI)
 - **Multi-task Performance**:
   - 32.1% Checkmate-in-One accuracy (vs ChessGPT-Base 26.5%)
-  - 99.9% environment simulation accuracy
-  - 26.2% overall action accuracy
-- **Model**: [RookWorld-LM 124M](https://huggingface.co/jrahn/RookWorld-LM-124M)  
+  - 99.9% environment simulation accuracy (details: Next State 99.61%, NLS 99.99%, Reward 99.11%, Terminated 99.13%; see RookWorld/README)
+  - 26.2% action accuracy
+- **Model**: [RookWorld-LM 124M](https://huggingface.co/jrahn/RookWorld-LM-124M)
 - **Dataset**: [rookworld_7m](https://huggingface.co/datasets/jrahn/rookworld_7m)
+- **Repository**: [jorahn/RookWorld](https://github.com/jorahn/RookWorld)
 - **Significance**: Enables closed-loop self-play without external engines
 - **Interactive Demo**: [RookWorld Space](https://huggingface.co/spaces/jrahn/rookworld)
 
@@ -37,18 +38,22 @@ Post: [ROOK: REASONING OVER ORGANIZED KNOWLEDGE](https://laion.ai/notes/rook/)
 
 Implementation of Chain-of-Thought reasoning for chess, incorporating position analysis → candidate evaluation → move selection.
 
+- **Model**: [ROOK-LM 124M](https://huggingface.co/jrahn/ROOK-LM-124M)
 - **Dataset**: [rook_40m](https://huggingface.co/datasets/lfsm/rook-40m) (6B tokens, generated on Tsubame 4.0)
 - **Architecture**: GPT-2 with custom chess tokenization
-- **Performance**: 22.2% action accuracy with comprehensive reasoning traces
+- **Performance**: 22.2% action accuracy, 24.4% Checkmate-in-One
+- **Repository**: [jorahn/RookWorld](https://github.com/jorahn/RookWorld)
 - **Technical Details**: [LAION Research Note](https://laion.ai/notes/rook/)
 
 ### ROOK-CLF (9M params) - Classification Approach
 
-Reproduction of Google DeepMind’s [“Grandmaster-Level Chess Without Search”](https://arxiv.org/abs/2402.04494) methodology using LLaMA-based decoder.
+Reproduction of Google DeepMind's ["Grandmaster-Level Chess Without Search"](https://arxiv.org/abs/2402.04494) methodology using LLaMA-based decoder.
 
 - **Performance**: 49% action accuracy, 57% on Checkmate-in-One
 - **Achievement**: Demonstrated searchless chess AI feasibility with minimal parameters
-- **Model**: [Available on HuggingFace](https://huggingface.co/jrahn/ROOK-CLF-9m)
+- **Model**: [ROOK-CLF-9M on HuggingFace](https://huggingface.co/jrahn/ROOK-CLF-9m)
+- **Interactive Demo**: [Try it in your browser](https://jorahn.github.io/research/rook-clf-demo/)
+- **Repository**: [jorahn/rook](https://github.com/jorahn/rook)
 
 ### YoloChess (2022) - Foundation Work
 
