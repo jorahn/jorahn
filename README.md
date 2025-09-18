@@ -1,6 +1,7 @@
 # Chess AI Through Language Models: Strategic Reasoning Without Search
 
-**Jonathan Rahn** | AI Lab Lead, Drees & Sommer | [GitHub](https://github.com/jorahn) | [HuggingFace](https://huggingface.co/jrahn) | [Research Page](https://jorahn.github.io/research/) | [W&B](https://wandb.ai/jrahn/ROOK)
+**Jonathan Rahn** | AI Lab Lead, Drees & Sommer | [About Me](https://jorahn.github.io/)  
+[GitHub](https://github.com/jorahn) | [HuggingFace](https://huggingface.co/jrahn)
 
 ## Research Overview
 
@@ -28,16 +29,17 @@ Post: [ROOK: REASONING OVER ORGANIZED KNOWLEDGE](https://laion.ai/notes/rook/)
   - **🏆 32.1% Checkmate-in-One accuracy** - outperforms ChessGPT-Base (Feng et al., NeurIPS'23) with **124M vs 3B parameters** (24x smaller)
   - 99.9% environment simulation accuracy (details: Next State 99.61%, NLS 99.99%, Reward 99.11%, Terminated 99.13%; see RookWorld/README)
   - 26.2% action accuracy
+- **Interactive Demo**: [Try it in your browser](https://jorahn.github.io/research/rookworld-demo/?model=rookworld)
 - **Model**: [RookWorld-LM 124M](https://huggingface.co/jrahn/RookWorld-LM-124M)
 - **Dataset**: [rookworld_7m](https://huggingface.co/datasets/jrahn/rookworld_7m)
 - **Repository**: [jorahn/RookWorld](https://github.com/jorahn/RookWorld)
 - **Significance**: Enables closed-loop self-play without external engines
-- **Interactive Demo**: [RookWorld Space](https://huggingface.co/spaces/jrahn/rookworld)
 
 ### ROOK-LM (124M params) - Chain-of-Thought Integration
 
 Implementation of Chain-of-Thought reasoning for chess, incorporating position analysis → candidate evaluation → move selection.
 
+- **Interactive Demo**: [Try it in your browser](https://jorahn.github.io/research/rookworld-demo/?model=rook-lm)
 - **Model**: [ROOK-LM 124M](https://huggingface.co/jrahn/ROOK-LM-124M)
 - **Dataset**: [rook_40m](https://huggingface.co/datasets/lfsm/rook-40m) (6B tokens, generated on Tsubame 4.0)
 - **Architecture**: GPT-2 with custom chess tokenization
@@ -49,11 +51,12 @@ Implementation of Chain-of-Thought reasoning for chess, incorporating position a
 
 Reproduction of Google DeepMind's ["Grandmaster-Level Chess Without Search"](https://arxiv.org/abs/2402.04494) methodology using LLaMA-based decoder.
 
+- **Interactive Demo**: [Try it in your browser](https://jorahn.github.io/research/rook-clf-demo/)
 - **Performance**: 49% action accuracy, 57% on Checkmate-in-One
 - **Achievement**: Demonstrated searchless chess AI feasibility with minimal parameters
 - **Model**: [ROOK-CLF-9M on HuggingFace](https://huggingface.co/jrahn/ROOK-CLF-9m)
-- **Interactive Demo**: [Try it in your browser](https://jorahn.github.io/research/rook-clf-demo/)
 - **Repository**: [jorahn/rook](https://github.com/jorahn/rook)
+- **Training Logs**: [W&B](https://wandb.ai/jrahn/ROOK)
 
 ### YoloChess (2022) - Foundation Work
 
