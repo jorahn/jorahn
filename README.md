@@ -36,7 +36,7 @@ Welcome to my chess AI research repositories! This work demonstrates that transf
 ### Key Repositories
 - 🔬 **[RookWorld](https://github.com/jorahn/RookWorld)** - Unified policy+environment models (PyTorch/llm.c)
 - 🎯 **[rook](https://github.com/jorahn/rook)** - Classification approach (HuggingFace Transformers)
-- 🚀 **[rookworld-trl](https://github.com/jorahn/rookworld-trl)** - RLHF training (TRL framework)
+- 🚀 **[rookworld-trl](https://github.com/jorahn/rookworld-trl)** - RLVR training (TRL framework)
 
 -----
 
